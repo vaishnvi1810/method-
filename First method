@@ -1,0 +1,14 @@
+public class Main 
+{
+  static void newMethod() 
+{
+    System.out.println("I know about method");
+  }
+
+  public static void main(String[] args)
+ {
+    newMethod();
+    newMethod();
+    newMethod();
+  }
+}
