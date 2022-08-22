@@ -1,0 +1,12 @@
+public class Main 
+{
+  static int newMethod(int p, int q) 
+  {
+    return p+q;
+  }
+
+  public static void main(String[] args) 
+  {
+    System.out.println(newMethod(26, 7));
+  }
+}
