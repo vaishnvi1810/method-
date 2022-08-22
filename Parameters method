@@ -1,0 +1,13 @@
+public class Main 
+{
+  static void newMethod(String firstname, float height)
+   {
+    System.out.println(firstname + " is " + height);
+  }
+public static void main(String[] args) 
+  {
+    newMethod("Liam", 5);
+    newMethod("Jenny", 6);
+    newMethod("Anja", 4);
+  }
+}
