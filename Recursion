@@ -1,0 +1,20 @@
+public class Main
+ {
+  public static void main(String[] args)
+   {
+    int result = sum(50, 100);
+    System.out.println(result);
+  }
+  public static int sum(int p, int q) 
+  {
+    if (p > q) 
+    {
+      return q + sum(p, q - 1);
+    }
+     else 
+     {
+      return q ;
+    }
+  }
+}
+
