@@ -1,0 +1,24 @@
+public class Main
+ {
+  
+  static void myStaticMethod()
+   {
+    System.out.println(" method is static ");
+  }
+
+  public void PublicMethod()
+   {
+    System.out.println("method is public");
+  }
+
+  public static void main(String[ ] args) 
+  {
+    myStaticMethod();
+
+    Main myObj = new Main(); 
+    myObj.PublicMethod(); 
+  }
+}
+ 
+ 
+
